@@ -1,0 +1,137 @@
+html {
+  font-family: Georgia
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    border: solid 1.5px darkgreen;
+    padding: 10px;
+}
+
+h1 {
+    color: Blue;
+    font-size: 60px;
+}
+
+h2, h3, h4 {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+html {
+    background-color: lightblue;
+}
+
+nav {
+    border: 2px solid blue;
+
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.city_row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  } 
+
+.city_row img {
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+    padding: 2px;
+  }
+  
+table, td, th {
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+  }
+
+#CS_location {
+    width: 250px;
+    display: flex;
+    box-shadow: 0 2px 6px black;
+    float: inline-end;
+  }
+
+  
+.city_row aside {
+    max-width: 600px;
+  }
+
+#lv {
+  position: relative;
+  left: 15px;
+  width: 350px;
+  display: flex;
+  box-shadow: 0 2px 6px black;
+  }
+
+.contactform {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column; 
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,textarea {
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid black;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+textarea{
+  height: 75px;
+  resize: vertical;
+}
+
+button {
+  padding: 5px;
+  color: white;
+  background-color: grey;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.quesimg {
+  position: absolute;
+  top: 350px;
+  right: 180px;
+  width: 100px;
+}
+
+.quesimg img {
+  width: 200%;
+}
